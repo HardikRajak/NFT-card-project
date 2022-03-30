@@ -20,6 +20,25 @@ h2,span{
      margin-left: auto;
      margin-right: auto;
 }
+span:hover,h2:hover{
+     color: hsl(178, 100%, 50%);
+}
+.square{
+     width: 280px;
+     height: 280px;
+     background-color: hsl(178, 100%, 50%);
+     position: absolute;
+     border-radius: 5px;
+     opacity: 0;
+}
+.square:hover{
+     opacity: 0.5;
+}
+.square img{
+     color: hsl(0, 0%, 100%);
+     margin-top: 42.5%;
+     margin-left: 42.5%;
+}
 p{
      color: hsl(215, 51%, 70%);
 }
